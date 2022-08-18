@@ -12,23 +12,14 @@ NAME
     run.py
 
 SYNOPSIS
-    run.py GROUP | COMMAND
-
-GROUPS
-    GROUP is one of the following:
-
-     fire
-       The Python Fire module.
-
-     logger
-       An object to dispatch logging messages to configured handlers.
-
-     restoretrash
+    run.py COMMAND
 
 COMMANDS
     COMMAND is one of the following:
 
-     restore_trash
+     trash_delete
+       not implemented
 
-     other (not implemented)
+     trash_restore
+       restores all items currently in the trash
 ```
